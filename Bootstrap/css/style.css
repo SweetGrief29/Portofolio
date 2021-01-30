@@ -1,0 +1,159 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	background-color: #00B7FF!important;
+}
+
+hr {
+	border: 2px solid red;
+	width: 250px;
+}
+
+table {
+	margin-left: 50px;
+	margin-bottom: 100px;
+	}
+
+.jumbotron{
+	background-image: url('../../img/bg.jpg');
+	height: 640px;
+	background-size: cover;
+}
+
+#home img {
+	margin-top: 150px;
+	margin-bottom: 10px;
+	border-radius: 30%;
+	width: 100px;
+	height: 100px;
+	}
+	
+.profil .ikon img {
+	border-radius: 50%;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	}
+	
+.profil .ikon h1 {
+	margin-bottom: 30px;
+	}
+
+#profil {
+	margin-top: 100px;
+	background-color: white;
+	}
+
+.skills {
+	background-color: #FAFAFA;
+	}
+
+.skills .kolomskill-kanan {
+	padding-top: 25px;
+	animation: geserkanan 3s ease;
+}
+
+.skills .kolomskill-kiri {
+	padding-top: 25px;
+	animation: geserkiri 3s ease;
+}
+
+.skills h1 {
+	padding-top: 50px;
+}
+
+.portofolio {
+	background-color: white;
+	}
+
+.portofolio .project-kiri {
+	border-radius: 20%;
+	padding-bottom: 40px;
+	transition: transform .3s ease;
+	animation: geserkiri 3s ease;
+	}
+	
+.portofolio .project-kanan {
+	border-radius: 20%;
+	padding-bottom: 40px;
+	transition: transform .3s ease;
+	animation: geserkanan 3s ease;
+	}
+
+.portofolio .project-kanan:hover {
+	transform: scale(1.2);
+	}
+.portofolio .project-kiri:hover {
+	transform: scale(1.2);
+	}
+
+.sosmed {
+	background-color: #FAFAFA;
+	}
+
+.sosmed .atas {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	transition: transform .1s ease;
+	animation: geseratas 3s ease;
+	}
+
+.sosmed .bawah {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	transition: transform .1s ease;
+	animation: geserbawah 3s ease;
+	}
+	
+.sosmed a:hover {
+	transform: translateY(-30px);
+	}
+
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	}
+footer small {
+	color: #fff;
+	}
+
+
+	
+@keyframes geserkiri {
+	0% {
+		transform: translateX(100px);
+		}
+	100% {
+		transform: translateX(0px);
+		}
+	}
+	
+@keyframes geserkanan {
+	0% {
+		transform: translateX(-100px);
+		}
+	100% {
+		transform: translateX(0px);
+		}
+	}
+	
+@keyframes geserbawah {
+	0% {
+		transform: translateY(70px);
+		}
+	100% {
+		transform: translateY(0px);
+		}
+	}
+	
+@keyframes geseratas {
+	0% {
+		transform: translateY(-70px);
+		}
+	100% {
+		transform: translateY(0px);
+		}
+	}
